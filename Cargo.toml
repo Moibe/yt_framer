@@ -3,5 +3,10 @@ name = "yt_framer"
 version = "0.1.0"
 edition = "2024"
 
+[[bin]]
+name = "ytf"
+path = "src/main.rs"
+
 [dependencies]
+crossterm = "0.29.0"
 ratatui = "0.30.0"

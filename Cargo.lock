@@ -1730,6 +1730,7 @@ dependencies = [
 name = "yt_framer"
 version = "0.1.0"
 dependencies = [
+ "crossterm",
  "ratatui",
 ]
 
